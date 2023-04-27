@@ -1,0 +1,66 @@
+:root {
+    --screen-height: 100vh;
+    --pic-width: 40vw;
+    --form-width: 60vw;
+}
+
+
+
+body {
+    display: flex;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: var(--form-width);
+    height: var(--screen-height);
+    
+}
+
+.header, .footer, form {
+    margin: 5rem;
+}
+
+form {
+    display: flex;
+    
+}
+
+.left-right {
+    display: flex;
+
+}
+
+.left {
+    margin-right: 60px;
+}
+
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin:1.5rem;
+
+}
+
+img {
+    width: var(--pic-width);
+    height: var(--screen-height);
+
+}
+
+#header-container, #footer-container {
+    background-color: aliceblue;
+    
+}
+
+#header-container {
+    padding-top: 3rem;
+}
+
+#footer-container {
+    padding-bottom: 12rem;
+}
