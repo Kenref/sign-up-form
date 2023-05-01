@@ -1,7 +1,7 @@
 :root {
     --screen-height: 100vh;
-    --pic-width: clamp(450px, 30vw, 35vw);
-    --form-width: 60vw;
+    --pic-width: clamp(300px, 30vw, 35vw);
+    --form-width: calc(100vw - var(--pic-width));
     --background-color: #E1E1E1;
     --button-color: brown;
     --form-color: white;
@@ -36,6 +36,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: var(--form-width);
+    min-width: 300px;
     height: var(--screen-height);
     background-color: var(--form-color);
 }
@@ -43,6 +44,7 @@ body {
 form {
     height: var(--form-height);
     min-height: 250px;
+    min-width: 300px;
 }
 
 
@@ -71,14 +73,15 @@ form {
     background-color: rgba(0, 0, 0, 0.45);
     min-height: 250px;
     height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-text {
-    padding-left: calc((var(--pic-width) / 2) - 14vh);
     color: white;
     margin-top: 0;
-    
-
+    font-size: 50px;
 
 }
 
@@ -86,7 +89,7 @@ form {
 #header-container, #footer-container {
     background-color: var(--background-color);
     width: calc(100vw - var(--pic-width));
-
+    min-width: 400px;
 }
 
 #header-container {
