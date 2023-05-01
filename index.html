@@ -8,16 +8,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <img src="background-image.jpg" alt="">
+    <div id="image-container">
+        <div class="image-logo">
+            <h1 class="image-text">Super Secret Safe</h1>
+        </div>
+    </div>
 
-    
     <div class="container">
         <div id="header-container">
-            <h2 class="header">Non irure consectetur elit voluptate culpa fugiat quis laborum non cupidatat ipsum consectetur qui. Nisi qui culpa laborum enim incididunt. Nisi et ipsum ipsum ad enim minim. Officia aliquip velit culpa esse minim id sint irure cupidatat non ad officia excepteur quis. Cillum est anim nostrud.</h2>
+            <h2 class="header">Welcome to the super secret vault of vaults! Guess the correct vault number for a super secret surprise!</h2>
+            <h3 class="header">Hint: it's not 69<span>, its actually 68</span></h3>
         </div>
         <form>
-            
+            <h3 id="middle-text">But first you must also fill in some top secret information...</h3>
             <div class="left-right">
                 <div class="left">
                     <div class="input">
@@ -31,6 +34,10 @@
                     <div class="input">
                         <label for="password">Password</label>
                         <input type="password" id="password" name="password">
+                    </div>
+                    <div class="input">
+                        <label for="vault">Vault Number</label>
+                        <input type="number" id="vault" name="vault">
                     </div>
                 </div>
                 <div class="right">
@@ -52,8 +59,8 @@
         </form>
 
             <div id="footer-container">
-                <button>Create Account</button>
-                <p class="footer">Non irure consectetur elit voluptate culpa fugiat quis laborum non cupidatat ipsum consectetur qui. Nisi qui culpa laborum enim incididunt. Nisi et ipsum ipsum ad enim minim. Officia aliquip velit culpa esse minim id sint irure cupidatat non ad officia excepteur quis. Cillum est anim nostrud.</p>
+                <button>Open Vault</button>
+                <p class="footer">Give up? add button here</p>
             </div>
     </div>
 
@@ -62,10 +69,11 @@
 
 
 
-<!-- sections that are needed :
-1. first name
-2. last name
-3. email
-4. phone number
-5. password
-6. confirm password -->
+<!-- 
+    things that need to be included:
+    - placeholder for text and stuff
+    - validator to make sure information is correct, if the information is not correct make the boxes red and if correct keep black
+    - styling
+    - fix width
+    
+ -->
