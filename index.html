@@ -20,47 +20,48 @@
             <h2 class="header">Welcome to the super secret vault of vaults! Guess the correct vault number for a super secret surprise!</h2>
             <h3 class="header">Hint: it's not 69<span>, its actually 68</span></h3>
         </div>
-        <form>
+
+        <form method="post">
             <h3 id="middle-text">But first you must also fill in some top secret information...</h3>
             <div class="left-right">
                 <div class="left">
                     <div class="input">
                         <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name">
+                        <input required type="text" id="first-name" name="first-name">
                     </div>
                     <div class="input">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
+                        <input required type="email" id="email" name="email">
                     </div>
                     <div class="input">
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
+                        <input required type="password" id="password" name="password">
                     </div>
                     <div class="input">
                         <label for="vault">Vault Number</label>
-                        <input type="number" id="vault" name="vault">
+                        <input required type="number" id="vault" name="vault" min="1" max="100">
                     </div>
                 </div>
                 <div class="right">
                     <div class="input">
                         <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="last-name">
+                        <input required type="text" id="last-name" name="last-name">
                     </div>
                     <div class="input">
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone">
+                        <input required type="tel" id="phone" name="phone">
                     </div>
                     <div class="input">
                         <label for="confirm-password">Confirm Password</label>
-                        <input type="password" id="confirm-password" name="confirm-password">
+                        <input required type="password" id="confirm-password" name="confirm-password">
                     </div>
                 </div>
             </div>
-
+            
         </form>
 
             <div id="footer-container">
-                <button>Open Vault</button>
+                <button type="submit">Open Vault</button>
                 <p class="footer">Give up? add button here</p>
             </div>
     </div>
