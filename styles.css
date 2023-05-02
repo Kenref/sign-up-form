@@ -70,7 +70,7 @@ input {
 }
 
 #left-container {
-    background-image: url(background-image.jpg);
+    background-image: url(images/background-image.jpg);
     width: var(--pic-width);
     height: var(--screen-height);
     background-repeat: no-repeat;

@@ -15,7 +15,7 @@ function checkPassword() {
         confirmPassword.style.border = "1px solid red"
     }
     else {
-        if (vault.value == 68) {
+        if (vault.value == 40) {
             body.style.backgroundImage = "url(images/money.jpg)"
             body.innerHTML = ""
             body.style.backgroundSize = "cover"
