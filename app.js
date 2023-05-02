@@ -16,7 +16,7 @@ function checkPassword() {
     }
     else {
         if (vault.value == 68) {
-            body.style.backgroundImage = "url(money.jpg)"
+            body.style.backgroundImage = "url(images/money.jpg)"
             body.innerHTML = ""
             body.style.backgroundSize = "cover"
         } else {
