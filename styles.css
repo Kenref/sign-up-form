@@ -114,14 +114,35 @@ img {
     box-shadow: 0px 5px 5px -2px rgb(193, 189, 189) inset;
 }
 
-button {
+#submit-button{
     background-color: var(--button-color);
     color: white;
     padding: 8px 50px;
     border-radius: 8px;
-
     margin-left: var(--left-margin);
     margin-top: 2.5rem;
+}
+
+#submit-button:hover {
+    transform: scale(1.1);
+    color: white;
+    padding: 8px 50px;
+    border-radius: 8px;
+    margin-left: var(--left-margin);
+    margin-top: 2.5rem;
+}
+
+#give-up {
+    background-color: #6B6D6C;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 8px;
+    margin-left: var(--left-margin);
+    margin-top: 2.5rem;
+}
+
+#give-up:hover {
+    transform: scale(0.9);
 }
 
 .footer {

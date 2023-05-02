@@ -10,50 +10,50 @@
 <body>
     <div id="left-container">
         <div class="left-background">
-            <img src="logo.png" alt="Logo">
-            <h1 class="left-text">Secret Safe</h1>
+            <img src="logo.png" alt="Edited Covid Logo">
+            <h1 class="left-text">Secret Vault</h1>
         </div>
     </div>
 
     <div class="container">
         <div id="header-container">
-            <h2 class="header">Welcome to the super secret vault of vaults! Guess the correct vault number for a super secret surprise!</h2>
-            <h3 class="header">Hint: it's not 69<span>, its actually 68</span></h3>
+            <h2 class="header">Welcome to the top secret vault! It's time to crack the lock. Guess the correct number between 1-100 to enter. </h2>
+            <h3 class="header">Hint: it's not 69<span id="hint">, its actually 68</span></h3>
         </div>
 
-        <form method="" action="" id="form">
+        <form id="form">
             <h3 id="middle-text">But first you must also fill in some top secret information...</h3>
             <div class="left-right">
                 <div class="left">
                     <div class="input">
                         <label for="first-name">First Name</label>
-                        <input required type="text" id="first-name" name="first-name">
+                        <input required type="text" id="first-name" name="first-name" value="test">
                     </div>
                     <div class="input">
                         <label for="email">Email</label>
-                        <input required type="email" id="email" name="email">
+                        <input required type="email" id="email" name="email" value="test@gmail.com">
                     </div>
                     <div class="input">
                         <label for="password">Password</label>
-                        <input required type="password" id="password" name="password">
+                        <input required type="password" id="password" name="password" value="asd">
                     </div>
                     <div class="input">
                         <label for="vault">Vault Number</label>
-                        <input required type="number" id="vault" name="vault" min="1" max="100">
+                        <input required type="number" id="vault" name="vault" min="1" max="100" value="68">
                     </div>
                 </div>
                 <div class="right">
                     <div class="input">
                         <label for="last-name">Last Name</label>
-                        <input required type="text" id="last-name" name="last-name">
+                        <input required type="text" id="last-name" name="last-name" value="name">
                     </div>
                     <div class="input">
                         <label for="phone">Phone Number</label>
-                        <input required type="tel" id="phone" name="phone">
+                        <input required type="tel" id="phone" name="phone" value="123">
                     </div>
                     <div class="input">
                         <label for="confirm-password">Confirm Password</label>
-                        <input required type="password" id="confirm-password" name="confirm-password">
+                        <input required type="password" id="confirm-password" name="confirm-password" value="asd">
                     </div>
                 </div>
             </div>
@@ -61,8 +61,10 @@
         </form>
 
             <div id="footer-container">
-                <button form="form" type="submit">Open Vault</button>
-                <p class="footer">Give up? add button here</p>
+                <button form="form" id="submit-button" type="submit">Open Vault</button>
+                <div>
+                    <button id="give-up" class="footer">Give up?</button>
+                </div>
             </div>
     </div>
 
@@ -70,14 +72,3 @@
     <script src="app.js"></script>
 </body>
 </html>
-
-
-
-<!-- 
-    things that need to be included:
-    - placeholder for text and stuff
-    - validator to make sure information is correct, if the information is not correct make the boxes red and if correct keep black
-    - styling
-    - fix width
-    
- -->
