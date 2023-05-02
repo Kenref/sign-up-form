@@ -3,7 +3,7 @@
 <h2>About</h2>
 <ul>
     <li>Fully responsive on desktop</li>
-    <li>Required matching password</li>
+    <li>Requires matching password</li>
     <li>Enter correct vault number to pass, hint is on page</li>
     <li>All input fields are required</li>
 
