@@ -23,7 +23,7 @@
     <li>Use vh and vw when sizing large areas and divs</li>
     <li>Only use px for sizing minor things such as border</li>
     <li>Use rem to style most things</li>
-    <li>When using min, max and clamp in CSS, sizes need to be in vh and vw</li>
+    <li>When using min and max in CSS, sizes need to be dynamic</li>
     <li>Always add images through CSS when possible as it is much easier to add text on it later</li>
 </ul>
 
